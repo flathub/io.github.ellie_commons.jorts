@@ -3,7 +3,7 @@ id: io.github.ellie_commons.jorts
 base: io.elementary.BaseApp
 base-version: 'circe-24.08'
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: io.github.ellie_commons.jorts
 
@@ -41,8 +41,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ellie-commons/jorts.git
-        tag: 3.3.1
-        commit: ce5fc14e329cc5242a20b04d197501578a2b73fe
+        tag: 3.4.0
+        commit: 0724c4797dd909c884c2beb86083e7c1fb599827
         x-checker-data:
           type: git
           tag-pattern: '^([\d.]+)$'
