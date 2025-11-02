@@ -1,7 +1,7 @@
 id: io.github.ellie_commons.jorts
 # elementary SDK is not available on Flathub, so use the elementary BaseApp instead
 base: io.elementary.BaseApp
-base-version: 'circe-24.08'
+base-version: 'circe-25.08'
 runtime: org.gnome.Platform
 runtime-version: '49'
 sdk: org.gnome.Sdk
@@ -41,8 +41,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ellie-commons/jorts.git
-        tag: 3.4.0
-        commit: 0724c4797dd909c884c2beb86083e7c1fb599827
+        tag: 3.4.1
+        commit: 5ad75fbdcaded6b2c46ddb42ad8d97ceb049be69
         x-checker-data:
           type: git
           tag-pattern: '^([\d.]+)$'
