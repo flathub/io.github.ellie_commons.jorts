@@ -43,8 +43,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ellie-commons/jorts.git
-        tag: 4.0.0
-        commit: 673b7cfa8417ea1ce4b898ec6b78fee43a7a8ae4
+        tag: 4.0.1
+        commit: 550b376f3367efba316523bf22497ccb8a397113
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
