@@ -42,7 +42,7 @@ modules:
       - -Dvariant=['default']
     sources:
       - type: git
-        url: https://github.com/ellie-commons/jorts.git
+        url: https://github.com/elly-code/jorts.git
         tag: 4.0.1-4
         commit: 298a1464a5a4baceba874a4ff3acc0773f36682c
         x-checker-data:
