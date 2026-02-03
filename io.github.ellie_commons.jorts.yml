@@ -43,7 +43,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/elly-code/jorts.git
-        branch: legacy-rdnn
+        tag: 4.0.1-8
         commit: b0a8091a6a466b59356b02978df7fd77689ff1e6
         x-checker-data:
           type: git
