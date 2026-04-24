@@ -40,11 +40,12 @@ modules:
     buildsystem: meson
     config-opts:
       - -Dvariant=['default']
-      - -Dflathub=true
+      - -Dlegacy-rdnn=true
     sources:
       - type: git
         url: https://github.com/elly-code/jorts.git
-        commit: 9e8268b11e4c0ed3b5bf163447ba88433c598766
+        tag: 4.1.0
+        commit: d783ee47dab5486fea422c4517fc5921d7b37d61
         x-checker-data:
           type: git
           tag-pattern: '^([\d.]+)$'
