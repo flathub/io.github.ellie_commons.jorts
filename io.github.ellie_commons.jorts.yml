@@ -50,8 +50,8 @@ modules:
   - name: jorts
     buildsystem: meson
     config-opts:
-      - -Dvariant=default
-      - -Dlegacy-rdnn=true
+      - -Dprofile=legacy-rdnn
+      - -Dicon-variant=pride
     sources:
       - type: git
         url: https://github.com/elly-code/jorts.git
