@@ -50,13 +50,13 @@ modules:
   - name: jorts
     buildsystem: meson
     config-opts:
-      - -Dvariant=default
-      - -Dlegacy-rdnn=true
+      - -Dprofile=legacy-rdnn
+      - -Dicon-variant=pride
     sources:
       - type: git
         url: https://github.com/elly-code/jorts.git
-        tag: 4.1.1
-        commit: 391297dcccc8af34399fa2b827e2e6fbc4625940
+        tag: 4.2.0
+        commit: 5e3fdc5b7f79bb7dff2c56c1718acc6ad53d16b8
         x-checker-data:
           type: git
           tag-pattern: '^([\d.]+)$'
