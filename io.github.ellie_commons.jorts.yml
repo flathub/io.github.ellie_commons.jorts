@@ -51,7 +51,7 @@ modules:
     buildsystem: meson
     config-opts:
       - -Dprofile=legacy-rdnn
-      - -Dicon-variant=pride
+      - -Dicon-variant=default
     sources:
       - type: git
         url: https://github.com/elly-code/jorts.git
